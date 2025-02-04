@@ -4,7 +4,8 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User
 from telegram.constants import ParseMode
-from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, ChatMigrated, TelegramError
+from telegram import TelegramError
+from telegram._exceptions import BadRequest, TimedOut, NetworkError, ChatMigrated, Unauthorized
 from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop
 from telegram.utils.helpers import escape_markdown
