@@ -12,7 +12,7 @@ class Config(object):
     # ======= REQUIRED CONFIGURATION =======
     API_KEY = "7941135502:AAHz-KGvAAoZEhPVgfVKw3zFbkaB0_Pi5rM"  # Bot token (REQUIRED)
     OWNER_ID = 878604830  # Your Telegram user ID (REQUIRED)
-    OWNER_USERNAME = "YourUsernameHere"  # (Optional: Replace with your username)
+    OWNER_USERNAME = "@sigma6375"  # (Optional: Replace with your username)
 
     # ======= DATABASE CONFIGURATION =======
     SQLALCHEMY_DATABASE_URI = "sqlite:///bot.db"  # SQLite (for simple setups) or replace with PostgreSQL/MySQL URI
