@@ -1,0 +1,7 @@
+future
+emoji
+requests
+sqlalchemy==1.4.49
+python-telegram-bot==20.3
+psycopg2
+feedparser
